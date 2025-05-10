@@ -17,6 +17,6 @@ DAYS_SINCE=$(( (TODAY - LAST_RUN) /86400 ))  # 86400秒 = 1天
 
 # 如果距离上次执行超过或等于10天，执行并更新时间
 if [ $DAYS_SINCE -ge 10 ]; then
-    python3 /opt/script/auto_ssl_cert.py
+    python3 /yourpath/auto_ssl_cert.py
     echo "$TODAY" > "$LAST_RUN_FILE"
 fi
