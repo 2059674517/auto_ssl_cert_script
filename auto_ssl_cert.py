@@ -596,27 +596,19 @@ def main():
     domains = [
         {
             "domain": "example.com",
-            "cert_dir": "/etc/nginx/ssl/example.com_nginx",
-            "cert_path": "/etc/nginx/ssl/example.com_nginx/example.com_bundle.crt",
-            "key_path": "/etc/nginx/ssl/example.com_nginx/example.com.key",
-            "pem_path": "/etc/nginx/ssl/example.com_nginx/example.com_bundle.pem",
-            "csr_path": "/etc/nginx/ssl/example.com_nginx/example.com.csr"
-        },
-        {
-            "domain": "blog.example.com",
-            "cert_dir": "/etc/nginx/ssl/blog.example.com_nginx",
-            "cert_path": "/etc/nginx/ssl/blog.example.com_nginx/blog.example.com_bundle.crt",
-            "key_path": "/etc/nginx/ssl/blog.example.com_nginx/blog.example.com.key",
-            "pem_path": "/etc/nginx/ssl/blog.example.com_nginx/blog.example.com_bundle.pem",
-            "csr_path": "/etc/nginx/ssl/blog.example.com_nginx/blog.example.com.csr"
+            "cert_dir": "/yourpath/example.com_nginx",
+            "cert_path": "/yourpath/example.com_nginx/example.com_bundle.crt",
+            "key_path": "/yourpath/example.com_nginx/example.com.key",
+            "pem_path": "/yourpath/example.com_nginx/example.com_bundle.pem",
+            "csr_path": "/yourpath/example.com_nginx/example.com.csr"
         },
         {
             "domain": "api.example.com",
-            "cert_dir": "/etc/nginx/ssl/api.example.com_nginx",
-            "cert_path": "/etc/nginx/ssl/api.example.com_nginx/api.example.com_bundle.crt",
-            "key_path": "/etc/nginx/ssl/api.example.com_nginx/api.example.com.key",
-            "pem_path": "/etc/nginx/ssl/api.example.com_nginx/api.example.com_bundle.pem",
-            "csr_path": "/etc/nginx/ssl/api.example.com_nginx/api.example.com.csr"
+            "cert_dir": "/yourpath/api.example.com_nginx",
+            "cert_path": "/yourpath/api.example.com_nginx/api.example.com_bundle.crt",
+            "key_path": "/yourpath/api.example.com_nginx/api.example.com.key",
+            "pem_path": "/yourpath/api.example.com_nginx/api.example.com_bundle.pem",
+            "csr_path": "/yourpath/api.example.com_nginx/api.example.com.csr"
         }
     ]
     
